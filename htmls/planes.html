@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FemFit</title>
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../js/bootstrap.js">
+	<link rel="stylesheet" href="../estilos.css">
+	<link rel="icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body id="grid-planes">
+	<nav id="navegador" class="navbar navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <h1><img class="imgSize" src="../img/img.logo.PNG"></h1>
+    <h2 class="navbar-brand; logoNav">Tu bienestar es el nuestro</h2>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title; enlacesNav" id="offcanvasDarkNavbarLabel">FemFit</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+         <li class="nav-item">
+            <a class="nav-link" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="actividades.html">Actividades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="planes.html">Resumen ejecutivo</a>
+          </li>
+          <li class="nav-item dropdown">
+        <a class="nav-link" href="contacto.html">Contactános</a>
+      </div>
+    </div>
+  </div>
+</nav>
+	<section id="planes">
+    <!--<h3 class="logoNav">Tenemos un plan pensado para vos</h3>*/-->
+		<div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+    <h2 class="accordion-header" id="headingZero">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseZero" aria-expanded="false" aria-controls="collapseOne">
+        Horarios y costos:
+      </button>
+    </h2>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseZero">
+        Horarios 
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <li>L. a V.: 7.00 a 12.00 - 15.00-22.00</li>
+        <li>Sábado: 9.00-15.00</li>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Mensualidad
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <ul>El plan mensual incluye:
+          <li>Matrícula gratuita</li>
+          <li>Acceso todos los dias</li>
+          <li>Acceso a todas las actividades.</li>
+          <li>Uso de vestuarios.</li>
+          <li class="liStyle"> <b>$ 1517</b></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseZero">
+        Ubicación
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Av. 8 de Octubre 3585 esq. Pernas
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<footer class="espacioFooter"> 
+		<p>Desarrollado por M. Obregón <br> ©2022 </p>
+</footer>
+<script src="../js/bootstrap.js"></script>
+</body>
+</html>

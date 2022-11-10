@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FemFit</title>
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../js/bootstrap.js">
+	<link rel="stylesheet" href="../estilos.css">
+	<link rel="icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body id="grid-planes">
+	<nav id="navegador" class="navbar navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <h1><img class="imgSize" src="../img/img.logo.PNG"></h1>
+    <h2 class="navbar-brand; logoNav">Tu bienestar es el nuestro</h2>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title; enlacesNav" id="offcanvasDarkNavbarLabel">FemFit</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+         <li class="nav-item">
+            <a class="nav-link" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="actividades.html">Actividades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="planes.html">Planes</a>
+          </li>
+          <li class="nav-item dropdown">
+        <a class="nav-link" href="contacto.html">Contactános</a>
+      </div>
+    </div>
+  </div>
+</nav>
+	<section id="planes">
+    <!--<h3 class="logoNav">Tenemos un plan pensado para vos</h3>*/-->
+		<div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+    <h2 class="accordion-header" id="headingZero">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseZero" aria-expanded="false" aria-controls="collapseOne">
+        Planes
+      </button>
+    </h2>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseZero">
+        Plan mensual
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <ul>El plan mensual incluye:
+          <li>Matrícula 50% bonificada</li>
+          <li>Acceso de lunes a viernes.</li>
+          <li>Acceso a todas las actividades.</li>
+          <li>Uso de vestuarios.</li>
+         <li class="liStyle"> <b>Cuota: $ 1500</b></li>
+         <li class="liStyle"> <b><strike>Matrícula: $ 1000</strike></b></li>
+         <li class="liStyle" style="position: relative;left: 12%"> <b>$ 500</b></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Plan timestral &nbsp <b> 10% descuento</b>
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <ul>El plan trimestral incluye:
+          <li>Matrícula gratuita</li>
+          <li>Acceso todos los dias</li>
+          <li>Acceso a todas las actividades.</li>
+          <li>Uso de vestuarios.</li>
+          <li>Uso del camping de Santa Clara.</li>
+          <li class="liStyle"> <b>$ 4050</b></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Plan semestral &nbsp <b> 20% descuento</b>
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <li>Matrícula gratuita</li>
+          <li>Acceso todos los dias</li>
+          <li>Acceso a todas las actividades.</li>
+          <li>Uso de vestuarios.</li>
+          <li>Uso del camping de Santa Clara.</li>
+          <li class="liStyle"> <b>$ 7200</b></li>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        Plan anual &nbsp <b> 30% descuento</b>
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <li>Matrícula gratuita</li>
+          <li>Acceso total</li>
+          <li>Uso de vestuarios.</li>
+          <li>Acceso a todas las actividades.</li>
+          <li>Acceso a todas las actividades.</li>
+          <li>Uso del camping de Santa Clara.</li>
+          <li>Sesión de nutricionista trimestral</li>
+          <li class="liStyle"> <b>$ 12600</b></li>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<footer class="espacioFooter"> 
+		<p>Desarrollado por M. Obregón <br> ©2022 </p>
+</footer>
+<script src="../js/bootstrap.js"></script>
+</body>
+</html>

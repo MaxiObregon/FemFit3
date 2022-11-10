@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FemFit</title>
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../js/bootstrap.js">
+	<link rel="stylesheet" href="../estilos.css">
+	<link rel="icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body id="grid-contacto">
+	<nav id="navegador" class="navbar navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+  	<h1><img class="imgSize" src="../img/img.logo.PNG"></h1>
+  	<h2 class="navbar-brand; logoNav">Tu bienestar es el nuestro</h2>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title; enlacesNav" id="offcanvasDarkNavbarLabel">FemFit</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+         <li class="nav-item">
+            <a class="nav-link" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="actividades.html">Actividades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="planes.html">Planes</a>
+          </li>
+          <li class="nav-item dropdown">
+        <a class="nav-link" href="contacto.html">Contactános</a>
+      </div>
+    </div>
+  </div>
+</nav>
+	
+	<main class="limite">
+		<form class="contactoFormulario" action="">
+			<h4>Datos de contacto</h4>
+			<label for="nombre"> Nombre:</label>
+			<input class="contactoBarra contactoEntreFormularios" type="text" name="Nombre"> 
+			<label for="nombre"> Apellido:</label>
+			<input class="contactoBarra contactoEntreFormularios" type="text" name="Apellidos"> <br>
+			<label for="email"> Email:</label>
+			<input class="contactoBarra contactoEntreFormularios" type="email" name="Correo"> <br>
+			<h4>Género</h4>
+			<span>Hombre</span>
+			<input type="radio" name="sexo"	value="hombre">
+			<span>Mujer</sapn>
+			<input type="radio" name="sexo"	value="mujer">
+			<span>No binario</sapn>
+			<input class="contactoEntreFormularios" type="radio" name="sexo" value="No binario">
+			<h4>Casilla de verificación</h4>
+			<span>Acepto los términos y condiciones</span>
+			<input class="contactoEntreFormularios" type="checkbox" name="acepta" value="1">
+			<h4>Consultas:</h4>
+			<select class="contactoEntreFormularios" name="Nivel">
+				<option value=""> Seleccione tipo de consulta</option>
+				<option value="A1">Sobre costos</option>
+				<option value="A2">Actividades</option>
+				<option value="B1">Medios de pago</option>
+				<option value="B2">Descuentos</option>
+				<option value="C1">Beneficios</option>
+				<option value="C2">Necesito ayuda</option>
+			</select> <br>
+			<h4>Comentarios</h4>	
+			<textarea name="" id="" cols="60" rows="9"></textarea> <br>
+			<input type="submit" value="Enviar formulario">
+			<input type="reset" value="Limpiar formulario">
+		</form>
+	</main>
+	<footer class="espacioFooter"> 
+		<p>Desarrollado por M. Obregón <br> ©2022 </p>
+	</footer>
+<script src="../js/bootstrap.js"></script>
+</body>
+</html>
